@@ -1,0 +1,43 @@
+{
+    "name": "larachimp/entropy",
+    "description": "An Open source Administration panel for Laravel inspired by Laravel Nova",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Percy Mamedy",
+            "email": "percymamedy@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^7.0",
+        "inertiajs/inertia-laravel": "^0.2.5"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^9.0",
+        "phpstan/phpstan": "^0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraChimp\\Entropy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaraChimp\\Entropy\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "develop"
+        },
+        "laravel": {
+            "providers": [
+                "LaraChimp\\Entropy\\EntropyServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
