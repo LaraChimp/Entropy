@@ -4,7 +4,8 @@
 
 ## Introduction
 
-Entropy is an Open source alternative to [Laravel Nova](https://nova.laravel.com/). It's built using; [Inertia](https://inertiajs.com/).
+Entropy is an Open source alternative to [Laravel Nova](https://nova.laravel.com/). It's built using; [TALL Stack](https://tallstack.dev/) and the 
+template design is from [TailwindComponents Dashboard](https://github.com/tailwindcomponents/dashboard).
 Although it is heavily inspired by Laravel Nova, it takes a completely new approach, giving developers much more freedom to customize
 the underlying ```view```, ```create```, ```update``` and ```delete``` logic for Models.
 
