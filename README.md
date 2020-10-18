@@ -1,5 +1,5 @@
 <h2 align="center">
-    Entropy
+   <img src="https://raw.githubusercontent.com/LaraChimp/art-work/master/packages/entropy/entropy.svg">
 </h2>
 
 ## Introduction
